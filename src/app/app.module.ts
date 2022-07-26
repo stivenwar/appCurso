@@ -14,6 +14,14 @@ import {FormsModule} from "@angular/forms";
 import { EjdirectivanifComponent } from './ejdirectivanif/ejdirectivanif.component';
 import { EjdirectivastyleComponent } from './ejdirectivastyle/ejdirectivastyle.component';
 import { EjdirectivangclassComponent } from './ejdirectivangclass/ejdirectivangclass.component';
+import { EjdirectivangforComponent } from './ejdirectivangfor/ejdirectivangfor.component';
+import { ArrayobjetosComponent } from './arrayobjetos/arrayobjetos.component';
+import { EjdirectivangswitchComponent } from './ejdirectivangswitch/ejdirectivangswitch.component';
+import { MenuitemDirective } from './menuitem.directive';
+import { EjdirectivaComponent } from './ejdirectiva/ejdirectiva.component';
+import { PadreComponent } from './padre/padre.component';
+import { HijoComponent } from './hijo/hijo.component';
+import { EuroPipe } from './euro.pipe';
 
 @NgModule({
   declarations: [
@@ -27,7 +35,15 @@ import { EjdirectivangclassComponent } from './ejdirectivangclass/ejdirectivangc
     Ej2waybindingComponent,
     EjdirectivanifComponent,
     EjdirectivastyleComponent,
-    EjdirectivangclassComponent
+    EjdirectivangclassComponent,
+    EjdirectivangforComponent,
+    ArrayobjetosComponent,
+    EjdirectivangswitchComponent,
+    MenuitemDirective,
+    EjdirectivaComponent,
+    PadreComponent,
+    HijoComponent,
+    EuroPipe
   ],
   imports: [
     BrowserModule,
